@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_items.dart';
 //import 'package:widgets_app/config/presentation/screens/buttons/buttons_screen.dart';
 
@@ -61,7 +62,9 @@ class _Custom_ListTile extends StatelessWidget {
     //     builder: (context) => const ButtonsScreen(),
     // ),
   // );
-      Navigator.pushNamed(context, menuItem.link );
+      // Navigator.pushNamed(context, menuItem.link );
+      context.push(menuItem.link);
+
 
     
 
