@@ -31,9 +31,9 @@ final appRouter = GoRouter(
     ),
 
     GoRoute(
-      path: '/snackbar',
-      name: SnackbarScreen.name,
-      builder: (context, state) => const SnackbarScreen(),
+      path: '/snackbars',
+      name: SnackbarsScreen.name,
+      builder: (context, state) => const SnackbarsScreen(),
     ),
 
      GoRoute(
