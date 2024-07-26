@@ -7,3 +7,4 @@ export 'package:widgets_app/config/presentation/screens/ui_controls/ui_controls_
 export 'package:widgets_app/config/presentation/screens/buttons/buttons_screen.dart';
 export 'package:widgets_app/config/presentation/screens/cards/cards_screen.dart';
 export 'package:widgets_app/config/presentation/screens/home/home_screen.dart';
+export 'package:widgets_app/config/presentation/counter/counter_screen.dart';
